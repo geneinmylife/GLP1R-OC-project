@@ -16,11 +16,7 @@ The analyses require R and the following packages:
 install.packages("remotes")
 remotes::install_github("MRCIEU/TwoSampleMR")
 devtools::install_github("mrcieu/ieugwasr")
-
-# Install additional packages used in the analyses
-# install.packages("dplyr")      
-# install.packages("MendelianRandomization") # For alternative MR methods
-# install.packages("coloc")        # For colocalization analysis
+install.packages("coloc")      
 
 Analysis Scripts
 The analytical workflow is divided into four core scripts:
